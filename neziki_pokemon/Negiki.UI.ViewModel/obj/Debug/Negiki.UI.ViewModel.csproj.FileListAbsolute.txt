@@ -1,0 +1,15 @@
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Negiki.UI.ViewModel.dll
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Negiki.UI.ViewModel.pdb
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.Domain.dll
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.Repository.dll
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.Service.dll
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.XmlData.dll
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.Domain.pdb
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.Repository.pdb
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.Service.pdb
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\bin\Debug\Neziki.XmlData.pdb
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\obj\Debug\Negiki.UI.ViewModel.csproj.AssemblyReference.cache
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\obj\Debug\Negiki.UI.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\obj\Debug\Negiki.UI.ViewModel.csproj.CopyComplete
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\obj\Debug\Negiki.UI.ViewModel.dll
+C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.ViewModel\obj\Debug\Negiki.UI.ViewModel.pdb

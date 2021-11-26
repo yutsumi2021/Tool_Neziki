@@ -55,7 +55,6 @@
     <Compile Include="Services\Factory\Data_ItemServiceFactory.cs" />
     <Compile Include="Services\Factory\Data_PokemonServiceFactory.cs" />
     <Compile Include="Services\IDataServices.cs" />
-    <Compile Include="function\INavigation.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,4 +1,4 @@
-﻿using Neziki.Domain.function;
+﻿using Negiki.UI.function;
 
 namespace Negiki.UI
 {

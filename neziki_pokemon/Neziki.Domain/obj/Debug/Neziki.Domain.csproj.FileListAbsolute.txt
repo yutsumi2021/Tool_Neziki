@@ -9,3 +9,8 @@ C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.Domain\bin\Debug\Nezi
 C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.Domain\obj\Debug\Neziki.Domain.csproj.CoreCompileInputs.cache
 C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.Domain\obj\Debug\Neziki.Domain.dll
 C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.Domain\obj\Debug\Neziki.Domain.pdb
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.Domain\bin\Debug\Neziki.Domain.dll
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.Domain\bin\Debug\Neziki.Domain.pdb
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.Domain\obj\Debug\Neziki.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.Domain\obj\Debug\Neziki.Domain.dll
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.Domain\obj\Debug\Neziki.Domain.pdb

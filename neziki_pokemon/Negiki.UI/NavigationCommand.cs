@@ -1,6 +1,6 @@
-﻿using Negiki.UI.ViewModel;
+﻿using Negiki.UI.function;
+using Negiki.UI.ViewModel;
 using Negiki.UI.Views;
-using Neziki.Domain.function;
 using System;
 using System.Windows;
 

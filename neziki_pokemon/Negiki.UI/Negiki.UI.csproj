@@ -45,6 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DelegateCommand.cs" />
+    <Compile Include="function\INavigation.cs" />
+    <Compile Include="function\ITaskRun.cs" />
+    <Compile Include="Implementation\TaskRun.cs" />
     <Compile Include="NavigationCommand.cs" />
     <Compile Include="WindowNavigater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,5 +66,6 @@
       <Name>Neziki.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

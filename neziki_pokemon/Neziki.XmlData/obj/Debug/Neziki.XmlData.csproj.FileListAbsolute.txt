@@ -16,3 +16,12 @@ C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Nez
 C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.csproj.CopyComplete
 C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.dll
 C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.pdb
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\bin\Debug\Neziki.XmlData.dll
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\bin\Debug\Neziki.XmlData.pdb
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\bin\Debug\Neziki.Domain.dll
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\bin\Debug\Neziki.Domain.pdb
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.csproj.AssemblyReference.cache
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.csproj.CoreCompileInputs.cache
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.csproj.CopyComplete
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.dll
+C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Neziki.XmlData\obj\Debug\Neziki.XmlData.pdb

@@ -36,3 +36,12 @@ C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.
 C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.csproj.CopyComplete
 C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.dll
 C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.pdb
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\bin\Debug\Negiki.UI.dll
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\bin\Debug\Negiki.UI.pdb
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\bin\Debug\Neziki.Domain.dll
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\bin\Debug\Neziki.Domain.pdb
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.csproj.AssemblyReference.cache
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.csproj.CoreCompileInputs.cache
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.csproj.CopyComplete
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.dll
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI\obj\Debug\Negiki.UI.pdb

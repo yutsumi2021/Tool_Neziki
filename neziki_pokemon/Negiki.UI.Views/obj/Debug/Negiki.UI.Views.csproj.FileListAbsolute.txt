@@ -25,3 +25,17 @@ C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negi
 C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.csproj.CoreCompileInputs.cache
 C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.dll
 C:\Users\yutsu\Desktop\Tool_Neziki\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.pdb
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\bin\Debug\Negiki.UI.Views.dll
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\bin\Debug\Negiki.UI.Views.pdb
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\MainWindow.g.cs
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\StartupWindow.g.cs
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views_MarkupCompile.cache
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views_MarkupCompile.lref
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\MainWindow.baml
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\StartupWindow.baml
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.g.resources
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.Properties.Resources.resources
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.csproj.GenerateResource.cache
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.csproj.CoreCompileInputs.cache
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.dll
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\Negiki.UI.Views.pdb

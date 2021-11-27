@@ -46,21 +46,10 @@
   <ItemGroup>
     <Compile Include="DelegateCommand.cs" />
     <Compile Include="function\INavigation.cs" />
-    <Compile Include="function\ITaskRun.cs" />
-    <Compile Include="Implementation\TaskRun.cs" />
-    <Compile Include="NavigationCommand.cs" />
     <Compile Include="WindowNavigater.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Negiki.UI.ViewModel\Negiki.UI.ViewModel.csproj">
-      <Project>{606F6B00-1C4F-4751-89A2-0F8186FE8795}</Project>
-      <Name>Negiki.UI.ViewModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Negiki.UI.Views\Negiki.UI.Views.csproj">
-      <Project>{8b5fef20-bc38-4464-bdd6-87f8b4676890}</Project>
-      <Name>Negiki.UI.Views</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Neziki.Domain\Neziki.Domain.csproj">
       <Project>{2A617AA9-7ABC-4BB3-BBB8-5BFC84413BE2}</Project>
       <Name>Neziki.Domain</Name>

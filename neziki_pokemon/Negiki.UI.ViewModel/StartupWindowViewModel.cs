@@ -2,64 +2,73 @@
 using Neziki.Repository;
 using Neziki.Service;
 using Neziki.XmlData.Data;
-using System.ComponentModel;
-using System.Runtime.CompilerServices;
+using System;
 using System.Threading.Tasks;
 
 namespace Negiki.UI.ViewModel
 {
     public class StartupWindowViewModel : BaseViewModel
     {
+        private int persent;
         private int _Progress;
         public int Progress
         {
             get { return this._Progress; }
             set
             {
-               if (SetValueRaisePropertyChanged(ref _Progress, nameof(this.Progress), value))
+                if (!SetValueRaisePropertyChanged(ref _Progress, nameof(this.Progress), value))
                 {
-
+                    return;
                 }
             }
         }
 
-        public StartupWindowViewModel()
+        private void ShowProgress(int persent)
         {
-            Initialize();
+            Progress = persent;
         }
 
+        public async void TaskRun()
+        {
+            var v = new Progress<int>(ShowProgress);
+            bool result = await Task.Run(() => DoWork(v));
+            if (result)
+            {
+                //メイン画面へ
+                WindowNavigater.OpenWindow(nameof(MainWindowViewModel));
+            }
+            else
+            {
+                //例外処理
+            }
+        }
+        private bool DoWork(IProgress<int> progress)
+        {
+            try
+            {
+                Task.Run(() =>
+                {
+                    while (persent < 100)
+                    {
+                        LoadData();
+                        persent++;
+                        // 状況通知
+                        progress.Report(persent);
+                    }
+                });
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        
         public override void Initialize()
         {
-            
+
         }
 
-        /// <summary>
-        /// 何かしらの処理を行う
-        /// </summary>
-        private async void RunMethodASync()
-        {
-            await Task.Run(async () =>
-            {
-                while (_Progress < 100)
-                {
-                    _Progress += 1;
-                    await Task.Run(() => LoadData());
-                }
-            });
-            
-        }
-
-        private void LoadData()
-        {
-            //Xmlからデータ取得
-            Xml_List.InitializeAll();
-            //各データを生成
-            Data_ItemServiceFactory.Initialize(new Data_ItemService(new ItemRepository()));
-            Data_SkillServiceFactory.Initialize(new Data_SkillService(new SkillRepository()));
-            Data_SpecialServiceFactory.Initialize(new Data_SpecialService(new SpecialRepository()));
-            var syuzokutiRepository = new syuzokutiRepository();
-            Data_syuzokutiServiceFactory.Initialize(new Data_syuzokutiService(syuzokutiRepository));
-            Data_PokemonServiceFactory.Initialize(new Data_PokemonService(new PokemonRepository(syuzokutiRepository)));
-        }
     }
 }

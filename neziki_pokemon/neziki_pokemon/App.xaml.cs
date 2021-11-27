@@ -1,5 +1,6 @@
 ﻿using Negiki.UI;
 using Negiki.UI.ViewModel;
+using Negiki.UI.ViewModel.Models;
 using Neziki.Domain.Services.Factory;
 using Neziki.Repository;
 using Neziki.Service;
@@ -34,9 +35,11 @@ namespace App_Start
             TaskScheduler.UnobservedTaskException += OnUnobservedTaskException;
             AppDomain.CurrentDomain.UnhandledException += OnUnhandledException;
 
+            LoadData();
+
             //画面起動
             WindowNavigater.Setup(new NavigationCommand());
-            WindowNavigater.OpenWindow(nameof(StartupWindowViewModel));
+            WindowNavigater.OpenWindow(nameof(MainWindowViewModel));
         }
 
         private void OnDispatcherUnhandledException(object sender, System.Windows.Threading.DispatcherUnhandledExceptionEventArgs e)
@@ -55,6 +58,19 @@ namespace App_Start
         {
             var exception = e.ExceptionObject as Exception;
             HandleException(exception);
+        }
+
+        private void LoadData()
+        {
+            //Xmlからデータ取得
+            Xml_List.InitializeAll();
+            //各データを生成
+            Data_ItemServiceFactory.Initialize(new Data_ItemService(new ItemRepository()));
+            Data_SkillServiceFactory.Initialize(new Data_SkillService(new SkillRepository()));
+            Data_SpecialServiceFactory.Initialize(new Data_SpecialService(new SpecialRepository()));
+            var syuzokutiRepository = new syuzokutiRepository();
+            Data_syuzokutiServiceFactory.Initialize(new Data_syuzokutiService(syuzokutiRepository));
+            Data_PokemonServiceFactory.Initialize(new Data_PokemonService(new PokemonRepository(syuzokutiRepository)));
         }
 
         private void HandleException(Exception e)

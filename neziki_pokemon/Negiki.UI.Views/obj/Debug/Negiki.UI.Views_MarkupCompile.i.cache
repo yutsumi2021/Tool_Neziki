@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\Users\ojtd001\Desktop\tool_neziki\neziki_pokemon\Negiki.UI.Views\obj\Debug\
+C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Negiki.UI.Views\obj\Debug\
 Negiki.UI.Views
 none
 false
@@ -16,5 +16,5 @@ DEBUG;TRACE
 13-1505183044
 MainWindow.xaml;StartupWindow.xaml;
 
-False
+True
 

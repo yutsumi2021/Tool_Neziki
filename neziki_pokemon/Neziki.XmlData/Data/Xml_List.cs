@@ -10,11 +10,11 @@
 
         public static void InitializeAll()
         {
-            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Pokemon>("C:\\Users\\ojtd001\\Desktop\\neziki20211116\\Xml\\Xml_Pokemon.xml"));
-            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Item>("C:\\Users\\ojtd001\\Desktop\\neziki20211116\\Xml\\Xml_Item.xml"));
-            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Skill>("C:\\Users\\ojtd001\\Desktop\\neziki20211116\\Xml\\Xml_Skill.xml"));
-            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Special>("C:\\Users\\ojtd001\\Desktop\\neziki20211116\\Xml\\Xml_Special.xml"));
-            Initialize(MyXmlSerializer.DeserializeFromString<List_syuzokuti>("C:\\Users\\ojtd001\\Desktop\\neziki20211116\\Xml\\Xml_syuzokuti.xml"));
+            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Pokemon>("C:\\Users\\ojtd001\\Desktop\\Tool_Neziki\\Xml\\Xml_Pokemon.xml"));
+            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Item>("C:\\Users\\ojtd001\\Desktop\\Tool_Neziki\\Xml\\Xml_Item.xml"));
+            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Skill>("C:\\Users\\ojtd001\\Desktop\\Tool_Neziki\\Xml\\Xml_Skill.xml"));
+            Initialize(MyXmlSerializer.DeserializeFromString<List_Xml_Special>("C:\\Users\\ojtd001\\Desktop\\Tool_Neziki\\Xml\\Xml_Special.xml"));
+            Initialize(MyXmlSerializer.DeserializeFromString<List_syuzokuti>("C:\\Users\\ojtd001\\Desktop\\Tool_Neziki\\Xml\\Xml_syuzokuti.xml"));
         }
 
         public static void Initialize(List_Xml_Pokemon List)

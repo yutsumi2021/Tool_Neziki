@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     
     <Grid>
+        <TextBox Text="廃止" TextAlignment="Center" Margin="200"/>
         <ProgressBar 
             Margin  ="50,350,50,30"
             Minimum="0"

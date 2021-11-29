@@ -6,9 +6,19 @@
       xmlns:local="clr-namespace:Negiki.UI.Views"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="MainWindow">
+      Title="メイン">
 
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Row="0" Grid.ColumnSpan="3" Background="DarkBlue"/>
+        <StackPanel Grid.Column="0" Margin="0" VerticalAlignment="Center">
+            <Border Background="SkyBlue" BorderBrush="Black" BorderThickness="3" >
+                <Image Height="90" HorizontalAlignment="Center" Source= ""></Image>
+            </Border>
+        </StackPanel>
     </Grid>
 </Window>

@@ -50,7 +50,7 @@ namespace Negiki.UI.ViewModel
                 {
                     while (persent < 100)
                     {
-                        LoadData();
+                        //LoadData();
                         persent++;
                         // 状況通知
                         progress.Report(persent);

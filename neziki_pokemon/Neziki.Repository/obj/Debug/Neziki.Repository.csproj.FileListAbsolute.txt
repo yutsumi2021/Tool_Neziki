@@ -42,3 +42,14 @@ C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Neziki.Repository\obj\Deb
 C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.csproj.CopyComplete
 C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.dll
 C:\Users\ojtd001\Desktop\neziki_pokemon\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.pdb
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\bin\Debug\Neziki.Repository.dll
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\bin\Debug\Neziki.Repository.pdb
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\bin\Debug\Neziki.Domain.dll
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\bin\Debug\Neziki.XmlData.dll
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\bin\Debug\Neziki.Domain.pdb
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\bin\Debug\Neziki.XmlData.pdb
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.csproj.AssemblyReference.cache
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.csproj.CopyComplete
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.dll
+C:\Users\ojtd001\Desktop\utsumi\Tool_Neziki\neziki_pokemon\Neziki.Repository\obj\Debug\Neziki.Repository.pdb

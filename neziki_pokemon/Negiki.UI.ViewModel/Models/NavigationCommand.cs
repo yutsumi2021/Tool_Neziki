@@ -41,10 +41,7 @@ namespace Negiki.UI.ViewModel.Models
             _MainWindow.WindowStartupLocation = WindowStartupLocation.CenterScreen;
             _MainWindow.Show();
             _MainWindow.Activate();
-            if (IsDisposed(_StartupWindow))
-            {
-                _StartupWindow.Close();
-            }
+            _CurrentWindow = _MainWindow;
         }
 
         public void CloseWindow()

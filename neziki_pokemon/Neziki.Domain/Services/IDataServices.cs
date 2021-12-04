@@ -27,5 +27,6 @@ namespace Neziki.Domain.Services
         /// </summary>
         /// <returns></returns>
         IReadOnlyList<Etype> FindAll();
+
     }
 }

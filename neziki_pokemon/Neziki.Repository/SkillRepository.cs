@@ -37,5 +37,6 @@ namespace Neziki.Repository
         {
             return _master.ToList();
         }
+
     }
 }

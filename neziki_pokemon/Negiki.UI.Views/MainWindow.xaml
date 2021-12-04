@@ -3,8 +3,8 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Negiki.UI.Views"
-      mc:Ignorable="d" 
+      xmlns:local="clr-namespace:Negiki.UI.Views" xmlns:controls="clr-namespace:Negiki.UI.Views.Controls"
+        mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="メイン">
 
@@ -20,10 +20,10 @@
         </Grid.RowDefinitions>
 
         <Border Grid.Row="0" Grid.Column="0" Background="AliceBlue">
-            <TextBlock Text="検索履歴" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Label Content="検索履歴" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
         </Border>
         <Border Grid.Row="0" Grid.Column="2" Background="AliceBlue">
-            <TextBlock Text="手持ち" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Label Content="手持ち" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
         </Border>
         <Grid Grid.Row="0" Grid.Column="1">
             <Grid.ColumnDefinitions>
@@ -31,10 +31,10 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Border Grid.Column="0" Background="AliceBlue">
-                <TextBlock Text="検索" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Label Content="検索" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
             </Border>
             <Border Grid.Column="1" Background="AliceBlue">
-                <TextBlock Text="戦績カウント" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                <Label Content="カウント" Margin="0" FontWeight="Black" Background="AliceBlue" HorizontalAlignment="Center" VerticalAlignment="Center" />
             </Border>
         </Grid>
         <Grid Grid.Column="0" Grid.Row="1">
@@ -85,9 +85,8 @@
         <Grid Grid.Column="1" Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
-                <RowDefinition Height="2.5*"/>
+                <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
-            
 
             <Grid Grid.Row="0">
                 <Grid.ColumnDefinitions>
@@ -96,7 +95,7 @@
                 </Grid.ColumnDefinitions>
                 <Grid Grid.Column="0" >
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="0.25*"/>
+                        <RowDefinition Height="*"/>
                         <RowDefinition Height="*"/>
                     </Grid.RowDefinitions>
                     <Grid Grid.Row="0">
@@ -105,50 +104,127 @@
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
                         <Border Background="AliceBlue">
-                            <TextBlock Grid.Column="0" Text="Name:" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            <Label Grid.Column="0" Content="Name:" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                         </Border>
                         <Border Grid.Column ="1" Background="AliceBlue" BorderBrush="AliceBlue" BorderThickness="5">
-                            <ComboBox />
+                            <controls:PartialSearchComboBox x:Name="PartialSearchComboBox" Margin="0,0,80,0" VerticalAlignment="Center" 
+                                                            ItemsSource="{Binding CmbList, Mode=OneWay}"/>
                         </Border>
                     </Grid>
                     <Grid Grid.Row="1">
                         <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="3.5*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Background="AliceBlue">
+                            <Button  Content="詳細表示" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                        <Border Grid.Row="1" Grid.Column ="1" Background="AliceBlue" BorderBrush="AliceBlue" BorderThickness="5">
+                            <ComboBox Margin="0,0,10,0" VerticalAlignment="Center"/>
+                        </Border>
+                    </Grid>
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <Border BorderBrush="Black" BorderThickness="1"/>
+                </Grid>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                       
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Border Grid.Row="0" Grid.Column="0" Background="AliceBlue" BorderBrush="Black">
+                        <Image Source = "Resources\Sample.png" />
+                    </Border>
+                </Grid>
+
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="0.5*"/>
+                        <RowDefinition Height="0.2*"/>
+                        <RowDefinition Height="1.5*"/>
+                        <RowDefinition Height="0.2*"/>
+                        <RowDefinition Height="1.5*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Background="AliceBlue" >
+                            <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border Grid.Column="1" Background="AliceBlue" >
+                            <Label Content="type" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                    </Grid>
+                    
+                        <Border Grid.Row="1" Background="AliceBlue" >
+                            <Label Content="Item" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Border Grid.Column="0" Background="AliceBlue" >
+                            <Label Content="tokusei1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border Grid.Column="1" Background="AliceBlue" >
+                            <Label Content="tokusei2" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                    </Grid>
+
+                    <Border Grid.Row="3"  Background="AliceBlue">
+                        <Label Content="waza" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    </Border>
+
+                    <Grid Grid.Row="4">
+                        <Grid.RowDefinitions>
                             <RowDefinition Height="*"/>
                             <RowDefinition Height="*"/>
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="3.5*"/>
+                            <ColumnDefinition Width="*"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Border Grid.Row="0" Grid.Column="0" BorderBrush="AliceBlue" BorderThickness="3,3,3,0.5">
-                                <TextBlock />
-                            </Border>
-                        <Border Grid.Row="1" Grid.Column="0" BorderBrush="AliceBlue" BorderThickness="3,3,3,0.5">
-                                <TextBlock/>
-                            </Border>
-                        <Border Grid.Row="2" Grid.Column="0" BorderBrush="AliceBlue" BorderThickness="3">
-                                <TextBlock/>
-                            </Border>
-                        <Border Grid.Row="3" Grid.Column="0" BorderBrush="AliceBlue" BorderThickness="3,0.5,3,3">
-                                <TextBlock/>
-                            </Border>
-                            <Border Grid.Row="0" Grid.Column="1" BorderBrush="AliceBlue" BorderThickness="3">
-                                <Button Content="詳細"/>
-                            </Border>
-                            <Border Grid.Row="1" Grid.Column="1" BorderBrush="AliceBlue" BorderThickness="3">
-                                <Button Content="詳細"/>
-                            </Border>
-                            <Border Grid.Row="2" Grid.Column="1" BorderBrush="AliceBlue" BorderThickness="3">
-                                <Button Content="詳細"/>
-                            </Border>
-                            <Border Grid.Row="3" Grid.Column="1" BorderBrush="AliceBlue" BorderThickness="3">
-                                <Button Content="詳細"/>
-                            </Border>
+                        <Border Grid.Row="0" Grid.Column="0" Background="DarkBlue">
+                            <Label Content="waza1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border Grid.Row="0" Grid.Column="1" Background="DarkBlue">
+                            <Label Content="waza2" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border Grid.Row="1" Grid.Column="0" Background="DarkBlue">
+                            <Label Content="waza3" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
+                        <Border Grid.Row="1" Grid.Column="1" Background="DarkBlue">
+                            <Label Content="waza4" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                        </Border>
                     </Grid>
+
+                    <Border Grid.Row="5"  Background="AliceBlue">
+                        <Label Content="status" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    </Border>
+
                 </Grid>
             </Grid>
+
         </Grid>
 
         <Grid Grid.Column="2" Grid.Row="1">

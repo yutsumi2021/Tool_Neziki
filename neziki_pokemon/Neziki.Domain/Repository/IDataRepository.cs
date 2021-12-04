@@ -16,6 +16,7 @@ namespace Neziki.Domain.Repository
 
         //全てのデータを取得します。
         IReadOnlyList<Etype> FindAll();
+
     }
 
 }

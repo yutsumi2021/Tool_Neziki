@@ -29,5 +29,6 @@ namespace Neziki.Service
         {
             return _IDataRepository.FindAll();
         }
+
     }
 }

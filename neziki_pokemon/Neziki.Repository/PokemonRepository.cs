@@ -133,7 +133,7 @@ namespace Neziki.Repository
         public int Calculation_status_HP(int svalue, int kvalue, int dvalue)
         {
             //(種族値×2+個体値+努力値÷4)×レベル÷100+10+レベル
-            return (svalue * 2 + kvalue + dvalue / 4) +110;
+            return (svalue * 2 + kvalue + dvalue / 4) + 110;
         }
         public int Calculation_kotaiti(int Circle)
         {
@@ -143,9 +143,9 @@ namespace Neziki.Repository
 
         public int Calculation_doryokuti(string status_type, string value1, string value2, string value3)
         {
-            if (status_type == value1 || status_type == value2 || status_type == value3 )
+            if (status_type == value1 || status_type == value2 || status_type == value3)
             {
-                if(string.IsNullOrEmpty(value3))
+                if (string.IsNullOrEmpty(value3))
                 {
                     return 252;
                 }
